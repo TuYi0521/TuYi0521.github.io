@@ -1,0 +1,848 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main-menu img {
+  margin-right: 15px;
+}
+
+#main-menu .item {
+  color: #CACACA !important;
+}
+
+#main-menu .item:hover {
+  cursor: pointer;
+}
+
+.#main-menu {
+  background-color: #101D13 !important;
+}
+
+#main-menu img {
+  border-radius: 100%;
+}
+
+#rules li {
+  list-style: circle;
+}
+
+#player-menu a {
+  background-color: #CECECE;
+  color: #494949;
+}
+
+.active {
+  background-color: #494949 !important;
+  color: #CACACA !important;
+}
+
+#show-login {
+  margin-right: 20px;
+}
+
+.hide {
+  display: none !important;
+}
+
+#login-message p {
+  color: red;
+  font-weight: bold;
+}
+
+.input-check {
+  margin-top: 5px !important;
+  margin-left: 5px !important;
+  margin-right: 0 !important;
+  color: red;
+}
+
+#signup-message p {
+  color: red;
+  font-weight: bold;
+}
+
+#signup-message {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+#dash-user h5,
+#dash-balance h5,
+#dash-first h5,
+#dash-last h5,
+#dash-loc h5 {
+  display: inline;
+}
+
+.edit.icon:hover {
+  cursor: pointer;
+}
+
+#info .segment {
+  background-color: #CECECE;
+}
+
+#info div h1 {
+  display: inline;
+  margin-bottom: 0;
+}
+
+#info div button {
+  margin-left: 15px;
+}
+
+#table-img {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.wrapper {
+  background-color: black;
+  z-index: 1;
+  width: 871px;
+  height: 630px;
+}
+
+#player {
+  position: relative;
+  top: -270px;
+  left: 10px;
+  background-color: black;
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  z-index: 4 !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-top: 5px;
+}
+
+#opponent {
+  position: relative;
+  top: -320px;
+  left: 710px;
+  background-color: black;
+  border: 1px solid white;
+  width: 150px;
+  height: 50px;
+  z-index: 4 !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding-top: 5px;
+}
+
+#player p,
+#opponent p {
+  position: relative;
+  top: -56px;
+  left: 20px;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+#player-card1 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#player-card2 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#opp-card1 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#opp-card2 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#com-card1 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#com-card2 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#com-card3 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#com-card4 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#com-card5 {
+  position: absolute;
+  top: 20px;
+  left: 405px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  z-index: 3 !important;
+}
+
+#up {
+  position: absolute;
+  top: 580px;
+  left: 770px;
+  width: 100px;
+  height: 50px;
+  z-index: 3 !important;
+  vertical-align: middle;
+}
+
+#down {
+  position: absolute;
+  top: 580px;
+  left: 550px;
+  width: 100px;
+  height: 50px;
+  z-index: 3 !important;
+  vertical-align: middle;
+}
+
+#even {
+  position: absolute;
+  top: 580px;
+  left: 660px;
+  width: 100px;
+  height: 50px;
+  z-index: 3 !important;
+  vertical-align: middle;
+}
+
+#pot {
+  position: absolute;
+  top: 330px;
+  left: 435px;
+  color: white;
+  z-index: 3 !important;
+}
+
+#pot h5 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#dealer {
+  position: absolute;
+  top: 250px;
+  left: 180px;
+  z-index: 3 !important;
+  width: 20px;
+  height: 20px;
+}
+
+#player-bet {
+  position: absolute;
+  top: 295px;
+  left: 219px;
+  color: white;
+  z-index: 3 !important;
+}
+
+#opp-bet {
+  position: absolute;
+  top: 295px;
+  left: 671px;
+  color: white;
+  z-index: 3 !important;
+}
+
+#bet-selector {
+  position: absolute;
+  top: 550px;
+  left: 730px;
+  z-index: 3 !important;
+}
+
+#table-session {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: white;
+  z-index: 3 !important;
+  font-weight: bold;
+}
+
+#chat-box {
+  position: absolute;
+  top: 520px;
+  left: 30px;
+  height: 110px;
+  width: 470px;
+  z-index: 3 !important;
+  background-color: black;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+#chat-input {
+  position: relative;
+  bottom: 5px;
+  left: 0;
+  z-index: 4 !important;
+  border-top: 2px solid green;
+  border-radius: 5px;
+  width: 470px !important;
+}
+
+#chat-field {
+  height: 20px;
+  font-size: 0.8em;
+  background-color: black;
+  color: white;
+}
+
+.post {
+  color: white;
+  font-size: 0.8em;
+  list-style: none;
+}
+
+#chatArea {
+  position: relative;
+  top: 0px;
+  height: 88px;
+  overflow-y: scroll;
+}
+
+#messages {
+  padding-left: 5px;
+  margin: 0;
+  height: auto;
+  margin-bottom: 3px;
+}
+
+.dealer-post {
+  color: #91A8D0;
+}
+
+#leave {
+  position: absolute;
+  top: 30px;
+  left: 780px;
+  z-index: 3 !important;
+}
+
+#auto-blind {
+  position: absolute;
+  top: 495px;
+  left: 35px;
+  z-index: 3 !important;
+}
+
+#auto-blind label {
+  color: white;
+}
+
+#sessions .segment {
+  height: auto;
+}
+
+#player img,
+#opponent img {
+  position: relative;
+  top: -6px;
+  left: -1px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+#change-deck {
+  position: absolute;
+  top: 465px;
+  left: 35px;
+  z-index: 3 !important;
+}
+
+#deck-select img {
+  height: 300px;
+}
+
+#dash-avatar img {
+  width: 25px;
+  border-radius: 100%;
+}
+
+#create-card,
+#remove-card {
+  background-color: #CECECE;
+}
+
+#remove,
+#create {
+  background-color: #494949;
+  color: #CACACA;
+}
+
+#alert,
+#rebuy {
+  text-align: center;
+}
+
+#bet-input {
+  width: 30px;
+  height: 21.7812px;
+}
+
+#bet-selector button {
+  margin-right: 0;
+}
+
+#pchips,
+#oppchips,
+#potchips {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3 !important;
+}
+
+.chip {
+  position: absolute;
+  z-index: 5 !important;
+  width: 40px;
+}
+
+#pchips .chip:nth-of-type(1) {
+  left: 180px;
+  top: 280px;
+}
+
+#pchips .chip:nth-of-type(2) {
+  left: 180px;
+  top: 275px;
+}
+
+#pchips .chip:nth-of-type(3) {
+  left: 180px;
+  top: 270px;
+}
+
+#pchips .chip:nth-of-type(4) {
+  left: 180px;
+  top: 265px;
+}
+
+#pchips .chip:nth-of-type(5) {
+  left: 180px;
+  top: 260px;
+}
+
+#pchips .chip:nth-of-type(6) {
+  left: 203px;
+  top: 280px;
+}
+
+#pchips .chip:nth-of-type(7) {
+  left: 203px;
+  top: 275px;
+}
+
+#pchips .chip:nth-of-type(8) {
+  left: 203px;
+  top: 270px;
+}
+
+#pchips .chip:nth-of-type(9) {
+  left: 203px;
+  top: 265px;
+}
+
+#pchips .chip:nth-of-type(10) {
+  left: 203px;
+  top: 260px;
+}
+
+#pchips .chip:nth-of-type(11) {
+  left: 192px;
+  top: 295px;
+}
+
+#pchips .chip:nth-of-type(12) {
+  left: 192px;
+  top: 290px;
+}
+
+#pchips .chip:nth-of-type(13) {
+  left: 192px;
+  top: 285px;
+}
+
+#pchips .chip:nth-of-type(14) {
+  left: 192px;
+  top: 280px;
+}
+
+#pchips .chip:nth-of-type(15) {
+  left: 192px;
+  top: 275px;
+}
+
+#pchips .chip:nth-of-type(16) {
+  left: 226px;
+  top: 280px;
+}
+
+#pchips .chip:nth-of-type(17) {
+  left: 226px;
+  top: 275px;
+}
+
+#pchips .chip:nth-of-type(18) {
+  left: 226px;
+  top: 270px;
+}
+
+#pchips .chip:nth-of-type(19) {
+  left: 226px;
+  top: 265px;
+}
+
+#pchips .chip:nth-of-type(20) {
+  left: 226px;
+  top: 260px;
+}
+
+#pchips .chip:nth-of-type(21) {
+  left: 215px;
+  top: 295px;
+}
+
+#pchips .chip:nth-of-type(22) {
+  left: 215px;
+  top: 290px;
+}
+
+#pchips .chip:nth-of-type(23) {
+  left: 215px;
+  top: 285px;
+}
+
+#pchips .chip:nth-of-type(24) {
+  left: 215px;
+  top: 280px;
+}
+
+#pchips .chip:nth-of-type(25) {
+  left: 215px;
+  top: 275px;
+}
+
+#oppchips .chip:nth-of-type(1) {
+  left: 675px;
+  top: 280px;
+}
+
+#oppchips .chip:nth-of-type(2) {
+  left: 675px;
+  top: 275px;
+}
+
+#oppchips .chip:nth-of-type(3) {
+  left: 675px;
+  top: 270px;
+}
+
+#oppchips .chip:nth-of-type(4) {
+  left: 675px;
+  top: 265px;
+}
+
+#oppchips .chip:nth-of-type(5) {
+  left: 675px;
+  top: 260px;
+}
+
+#oppchips .chip:nth-of-type(6) {
+  left: 652px;
+  top: 280px;
+}
+
+#oppchips .chip:nth-of-type(7) {
+  left: 652px;
+  top: 275px;
+}
+
+#oppchips .chip:nth-of-type(8) {
+  left: 652px;
+  top: 270px;
+}
+
+#oppchips .chip:nth-of-type(9) {
+  left: 652px;
+  top: 265px;
+}
+
+#oppchips .chip:nth-of-type(10) {
+  left: 652px;
+  top: 260px;
+}
+
+#oppchips .chip:nth-of-type(11) {
+  left: 663px;
+  top: 295px;
+}
+
+#oppchips .chip:nth-of-type(12) {
+  left: 663px;
+  top: 290px;
+}
+
+#oppchips .chip:nth-of-type(13) {
+  left: 663px;
+  top: 285px;
+}
+
+#oppchips .chip:nth-of-type(14) {
+  left: 663px;
+  top: 280px;
+}
+
+#oppchips .chip:nth-of-type(15) {
+  left: 663px;
+  top: 275px;
+}
+
+#oppchips .chip:nth-of-type(16) {
+  left: 629px;
+  top: 280px;
+}
+
+#oppchips .chip:nth-of-type(17) {
+  left: 629px;
+  top: 275px;
+}
+
+#oppchips .chip:nth-of-type(18) {
+  left: 629px;
+  top: 270px;
+}
+
+#oppchips .chip:nth-of-type(19) {
+  left: 629px;
+  top: 265px;
+}
+
+#oppchips .chip:nth-of-type(20) {
+  left: 629px;
+  top: 260px;
+}
+
+#oppchips .chip:nth-of-type(21) {
+  left: 640px;
+  top: 295px;
+}
+
+#oppchips .chip:nth-of-type(22) {
+  left: 640px;
+  top: 290px;
+}
+
+#oppchips .chip:nth-of-type(23) {
+  left: 640px;
+  top: 285px;
+}
+
+#oppchips .chip:nth-of-type(24) {
+  left: 640px;
+  top: 280px;
+}
+
+#oppchips .chip:nth-of-type(25) {
+  left: 640px;
+  top: 275px;
+}
+
+#potchips .chip:nth-of-type(1) {
+  left: 394px;
+  top: 280px;
+}
+
+#potchips .chip:nth-of-type(2) {
+  left: 394px;
+  top: 275px;
+}
+
+#potchips .chip:nth-of-type(3) {
+  left: 394px;
+  top: 270px;
+}
+
+#potchips .chip:nth-of-type(4) {
+  left: 394px;
+  top: 265px;
+}
+
+#potchips .chip:nth-of-type(5) {
+  left: 394px;
+  top: 260px;
+}
+
+#potchips .chip:nth-of-type(6) {
+  left: 417px;
+  top: 280px;
+}
+
+#potchips .chip:nth-of-type(7) {
+  left: 417px;
+  top: 275px;
+}
+
+#potchips .chip:nth-of-type(8) {
+  left: 417px;
+  top: 270px;
+}
+
+#potchips .chip:nth-of-type(9) {
+  left: 417px;
+  top: 265px;
+}
+
+#potchips .chip:nth-of-type(10) {
+  left: 417px;
+  top: 260px;
+}
+
+#potchips .chip:nth-of-type(11) {
+  left: 406px;
+  top: 295px;
+}
+
+#potchips .chip:nth-of-type(12) {
+  left: 406px;
+  top: 290px;
+}
+
+#potchips .chip:nth-of-type(13) {
+  left: 406px;
+  top: 285px;
+}
+
+#potchips .chip:nth-of-type(14) {
+  left: 406px;
+  top: 280px;
+}
+
+#potchips .chip:nth-of-type(15) {
+  left: 406px;
+  top: 275px;
+}
+
+#potchips .chip:nth-of-type(16) {
+  left: 440px;
+  top: 280px;
+}
+
+#potchips .chip:nth-of-type(17) {
+  left: 440px;
+  top: 275px;
+}
+
+#potchips .chip:nth-of-type(18) {
+  left: 440px;
+  top: 270px;
+}
+
+#potchips .chip:nth-of-type(19) {
+  left: 440px;
+  top: 265px;
+}
+
+#potchips .chip:nth-of-type(20) {
+  left: 440px;
+  top: 260px;
+}
+
+#potchips .chip:nth-of-type(21) {
+  left: 429px;
+  top: 295px;
+}
+
+#potchips .chip:nth-of-type(22) {
+  left: 429px;
+  top: 290px;
+}
+
+#potchips .chip:nth-of-type(23) {
+  left: 429px;
+  top: 285px;
+}
+
+#potchips .chip:nth-of-type(24) {
+  left: 429px;
+  top: 280px;
+}
+
+#potchips .chip:nth-of-type(25) {
+  left: 429px;
+  top: 275px;
+}
+
+.modal {
+  color: black !important;
+}
+
+.user-btn {
+  vertical-align: top !important;
+}
